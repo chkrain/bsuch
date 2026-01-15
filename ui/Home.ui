@@ -115,7 +115,16 @@ QAbstractButton:flat[style=&quot;helper&quot;]
 	image: url(:/concrete/power.png);
 	padding: 4px;
 }
-</string>
+QLabel[style='textinfo']
+{
+	border: 1px solid blue;
+	border-radius: 4px;
+	font-size: 10pt;
+}
+QLabel[style='selfinfo']
+{
+	font-size: 7pt;
+}</string>
   </property>
   <widget class="Animation" name="mixer_1">
    <property name="geometry">
@@ -240,7 +249,7 @@ QAbstractButton:flat[style=&quot;helper&quot;]
    <property name="geometry">
     <rect>
      <x>774</x>
-     <y>220</y>
+     <y>230</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -253,7 +262,7 @@ QAbstractButton:flat[style=&quot;helper&quot;]
    <property name="geometry">
     <rect>
      <x>934</x>
-     <y>220</y>
+     <y>230</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -266,7 +275,7 @@ QAbstractButton:flat[style=&quot;helper&quot;]
    <property name="geometry">
     <rect>
      <x>1156</x>
-     <y>220</y>
+     <y>232</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -282,7 +291,7 @@ QAbstractButton:flat[style=&quot;helper&quot;]
    <property name="geometry">
     <rect>
      <x>160</x>
-     <y>540</y>
+     <y>560</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -379,7 +388,7 @@ QAbstractButton:flat[style=&quot;helper&quot;]
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>560</y>
+     <y>580</y>
      <width>392</width>
      <height>54</height>
     </rect>
@@ -552,7 +561,7 @@ QAbstractButton:flat[style=&quot;helper&quot;]
    <property name="geometry">
     <rect>
      <x>794</x>
-     <y>210</y>
+     <y>220</y>
      <width>113</width>
      <height>238</height>
     </rect>
@@ -632,7 +641,7 @@ QAbstractButton:flat[style=&quot;helper&quot;]
    <property name="geometry">
     <rect>
      <x>945</x>
-     <y>209</y>
+     <y>219</y>
      <width>115</width>
      <height>174</height>
     </rect>
@@ -684,7 +693,7 @@ QAbstractButton:flat[style=&quot;helper&quot;]
    <property name="geometry">
     <rect>
      <x>1182</x>
-     <y>210</y>
+     <y>222</y>
      <width>86</width>
      <height>131</height>
     </rect>
@@ -903,7 +912,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>792</x>
-     <y>139</y>
+     <y>149</y>
      <width>106</width>
      <height>50</height>
     </rect>
@@ -948,8 +957,8 @@ font-size: 8pt;</string>
   <widget class="Animation" name="container_2">
    <property name="geometry">
     <rect>
-     <x>960</x>
-     <y>120</y>
+     <x>959</x>
+     <y>134</y>
      <width>84</width>
      <height>82</height>
     </rect>
@@ -995,7 +1004,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>1119</x>
-     <y>124</y>
+     <y>134</y>
      <width>84</width>
      <height>82</height>
     </rect>
@@ -1041,7 +1050,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>1256</x>
-     <y>124</y>
+     <y>132</y>
      <width>84</width>
      <height>82</height>
     </rect>
@@ -1243,8 +1252,8 @@ font-size: 8pt;</string>
   <widget class="QPushButton" name="fail_3">
    <property name="geometry">
     <rect>
-     <x>1206</x>
-     <y>336</y>
+     <x>1270</x>
+     <y>320</y>
      <width>38</width>
      <height>34</height>
     </rect>
@@ -1270,7 +1279,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>1061</x>
-     <y>331</y>
+     <y>341</y>
      <width>38</width>
      <height>34</height>
     </rect>
@@ -1296,7 +1305,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>890</x>
-     <y>330</y>
+     <y>340</y>
      <width>38</width>
      <height>34</height>
     </rect>
@@ -1316,6 +1325,226 @@ font-size: 8pt;</string>
    </property>
    <property name="flat">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>752</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>textinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>757</x>
+     <y>114</y>
+     <width>170</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>927</x>
+     <y>113</y>
+     <width>150</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1083</x>
+     <y>110</y>
+     <width>160</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>1225</x>
+     <y>110</y>
+     <width>150</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>480</y>
+     <width>130</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>92</x>
+     <y>314</y>
+     <width>130</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>229</x>
+     <y>314</y>
+     <width>130</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>510</y>
+     <width>180</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>480</y>
+     <width>180</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
    </property>
   </widget>
   <zorder>animation_2</zorder>
@@ -1362,6 +1591,16 @@ font-size: 8pt;</string>
   <zorder>fail_3</zorder>
   <zorder>fail_2</zorder>
   <zorder>fail_1</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
  </widget>
  <customwidgets>
   <customwidget>
