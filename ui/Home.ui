@@ -291,16 +291,6 @@ QAbstractButton:flat[style=&quot;helper&quot;]
     <string>КОНВЕЙЕР</string>
    </property>
   </widget>
-  <widget class="ElevatorPanel" name="elevatorpanel_0">
-   <property name="geometry">
-    <rect>
-     <x>460</x>
-     <y>340</y>
-     <width>250</width>
-     <height>395</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="DoserPanel" name="doserpanel_0">
    <property name="geometry">
     <rect>
@@ -362,8 +352,8 @@ QAbstractButton:flat[style=&quot;helper&quot;]
   <widget class="DoserPanel" name="doserpanel_4">
    <property name="geometry">
     <rect>
-     <x>18</x>
-     <y>324</y>
+     <x>92</x>
+     <y>334</y>
      <width>130</width>
      <height>100</height>
     </rect>
@@ -375,27 +365,14 @@ QAbstractButton:flat[style=&quot;helper&quot;]
   <widget class="DoserPanel" name="doserpanel_5">
    <property name="geometry">
     <rect>
-     <x>155</x>
-     <y>323</y>
+     <x>229</x>
+     <y>333</y>
      <width>130</width>
      <height>100</height>
     </rect>
    </property>
    <property name="title">
     <string>ИНЕРТНЫЕ-2</string>
-   </property>
-  </widget>
-  <widget class="DoserPanel" name="doserpanel_6">
-   <property name="geometry">
-    <rect>
-     <x>291</x>
-     <y>322</y>
-     <width>130</width>
-     <height>100</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>ИНЕРТНЫЕ-3</string>
    </property>
   </widget>
   <widget class="Animation" name="animation">
@@ -476,8 +453,8 @@ QAbstractButton:flat[style=&quot;helper&quot;]
   <widget class="Animation" name="container_5">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>362</y>
+     <x>84</x>
+     <y>372</y>
      <width>146</width>
      <height>126</height>
     </rect>
@@ -525,8 +502,8 @@ QAbstractButton:flat[style=&quot;helper&quot;]
   <widget class="Animation" name="container_6">
    <property name="geometry">
     <rect>
-     <x>146</x>
-     <y>363</y>
+     <x>220</x>
+     <y>373</y>
      <width>146</width>
      <height>126</height>
     </rect>
@@ -547,55 +524,6 @@ QAbstractButton:flat[style=&quot;helper&quot;]
      <rect>
       <x>57</x>
       <y>64</y>
-      <width>32</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>24</width>
-      <height>24</height>
-     </size>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-    <property name="style" stdset="0">
-     <string>open</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="Animation" name="container_7">
-   <property name="geometry">
-    <rect>
-     <x>280</x>
-     <y>362</y>
-     <width>146</width>
-     <height>126</height>
-    </rect>
-   </property>
-   <property name="contextMenuPolicy">
-    <enum>Qt::CustomContextMenu</enum>
-   </property>
-   <property name="source">
-    <url>
-     <string>qrc:/concrete/fillers.mng</string>
-    </url>
-   </property>
-   <property name="playbackHints">
-    <set>Animation::Bounce</set>
-   </property>
-   <widget class="QPushButton" name="open_7">
-    <property name="geometry">
-     <rect>
-      <x>56</x>
-      <y>67</y>
       <width>32</width>
       <height>32</height>
      </rect>
@@ -861,8 +789,8 @@ QAbstractButton:flat[style=&quot;helper&quot;]
   <widget class="Animation" name="rain_4">
    <property name="geometry">
     <rect>
-     <x>46</x>
-     <y>480</y>
+     <x>120</x>
+     <y>490</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -879,8 +807,8 @@ QAbstractButton:flat[style=&quot;helper&quot;]
   <widget class="Animation" name="rain_5">
    <property name="geometry">
     <rect>
-     <x>89</x>
-     <y>480</y>
+     <x>163</x>
+     <y>490</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -897,8 +825,8 @@ QAbstractButton:flat[style=&quot;helper&quot;]
   <widget class="Animation" name="rain_6">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>480</y>
+     <x>254</x>
+     <y>490</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -915,8 +843,8 @@ QAbstractButton:flat[style=&quot;helper&quot;]
   <widget class="Animation" name="rain_7">
    <property name="geometry">
     <rect>
-     <x>226</x>
-     <y>480</y>
+     <x>300</x>
+     <y>490</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -928,81 +856,13 @@ QAbstractButton:flat[style=&quot;helper&quot;]
    </property>
    <property name="playbackHints">
     <set>Animation::Ceaseless</set>
-   </property>
-  </widget>
-  <widget class="Animation" name="rain_8">
-   <property name="geometry">
-    <rect>
-     <x>316</x>
-     <y>480</y>
-     <width>30</width>
-     <height>33</height>
-    </rect>
-   </property>
-   <property name="source">
-    <url>
-     <string>qrc:/concrete/fillers-rain.mng</string>
-    </url>
-   </property>
-   <property name="playbackHints">
-    <set>Animation::Ceaseless</set>
-   </property>
-  </widget>
-  <widget class="Animation" name="rain_9">
-   <property name="geometry">
-    <rect>
-     <x>360</x>
-     <y>480</y>
-     <width>30</width>
-     <height>33</height>
-    </rect>
-   </property>
-   <property name="source">
-    <url>
-     <string>qrc:/concrete/fillers-rain.mng</string>
-    </url>
-   </property>
-   <property name="playbackHints">
-    <set>Animation::Ceaseless</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="below_1">
-   <property name="geometry">
-    <rect>
-     <x>380</x>
-     <y>620</y>
-     <width>124</width>
-     <height>127</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/elevator-below.png</pixmap>
-   </property>
-  </widget>
-  <widget class="QLabel" name="above_1">
-   <property name="geometry">
-    <rect>
-     <x>690</x>
-     <y>370</y>
-     <width>124</width>
-     <height>161</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/elevator-above.png</pixmap>
    </property>
   </widget>
   <widget class="Animation" name="animation_2">
    <property name="geometry">
     <rect>
-     <x>1070</x>
-     <y>570</y>
+     <x>510</x>
+     <y>414</y>
      <width>201</width>
      <height>204</height>
     </rect>
@@ -1307,8 +1167,8 @@ font-size: 8pt;</string>
   <widget class="QPushButton" name="open_8">
    <property name="geometry">
     <rect>
-     <x>136</x>
-     <y>430</y>
+     <x>210</x>
+     <y>440</y>
      <width>32</width>
      <height>32</height>
     </rect>
@@ -1335,8 +1195,8 @@ font-size: 8pt;</string>
   <widget class="TConveyorPanel" name="tconveyorpanel">
    <property name="geometry">
     <rect>
-     <x>1200</x>
-     <y>576</y>
+     <x>610</x>
+     <y>490</y>
      <width>204</width>
      <height>93</height>
     </rect>
@@ -1459,7 +1319,6 @@ font-size: 8pt;</string>
    </property>
   </widget>
   <zorder>animation_2</zorder>
-  <zorder>above_1</zorder>
   <zorder>rain_2</zorder>
   <zorder>dosator_3</zorder>
   <zorder>dosator_2</zorder>
@@ -1480,8 +1339,6 @@ font-size: 8pt;</string>
   <zorder>animation</zorder>
   <zorder>dosatorpanel_3</zorder>
   <zorder>container_6</zorder>
-  <zorder>container_7</zorder>
-  <zorder>doserpanel_6</zorder>
   <zorder>doserpanel_5</zorder>
   <zorder>doserpanel_4</zorder>
   <zorder>rain_1</zorder>
@@ -1490,10 +1347,6 @@ font-size: 8pt;</string>
   <zorder>rain_5</zorder>
   <zorder>rain_6</zorder>
   <zorder>rain_7</zorder>
-  <zorder>rain_8</zorder>
-  <zorder>rain_9</zorder>
-  <zorder>below_1</zorder>
-  <zorder>elevatorpanel_0</zorder>
   <zorder>runtimetrend</zorder>
   <zorder>container_1</zorder>
   <zorder>container_2</zorder>
@@ -1512,29 +1365,24 @@ font-size: 8pt;</string>
  </widget>
  <customwidgets>
   <customwidget>
+   <class>TConveyorPanel</class>
+   <extends>QGroupBox</extends>
+   <header>concreteui.tconveyorpanel</header>
+  </customwidget>
+  <customwidget>
    <class>DosatorPanel</class>
    <extends>QGroupBox</extends>
-   <header>concreteui/dosatorpanel.h</header>
+   <header>concreteui.dosatorpanel</header>
   </customwidget>
   <customwidget>
    <class>DoserPanel</class>
    <extends>QGroupBox</extends>
-   <header>concreteui/doserpanel.h</header>
-  </customwidget>
-  <customwidget>
-   <class>ElevatorPanel</class>
-   <extends>QGroupBox</extends>
-   <header>concreteui/elevatorpanel.h</header>
+   <header>concreteui.doserpanel</header>
   </customwidget>
   <customwidget>
    <class>MixerPanel</class>
    <extends>QGroupBox</extends>
-   <header>concreteui/mixerpanel.h</header>
-  </customwidget>
-  <customwidget>
-   <class>TConveyorPanel</class>
-   <extends>QGroupBox</extends>
-   <header>concreteui/tconveyorpanel.h</header>
+   <header>concreteui.mixerpanel</header>
   </customwidget>
   <customwidget>
    <class>Animation</class>
