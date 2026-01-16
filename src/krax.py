@@ -32,13 +32,13 @@ dadditions_1 = Dosator(m = additions_m_1.get_m, closed = io.DADDITIONS_CLOSED_1,
 fillers_m_1 = Weight(raw=io.FILLERS_M_1, mmax=8000)
 filler_1 = Container(m = fillers_m_1.get_m, out = io.FEEDER_ON_1, lock=Lock(key=lambda: io.CONVEYOR_ON_1 or io.FEEDER_ON_2 or io.FEEDER_ON_3),closed=~io.FEEDER_ON_1,max_sp=3000)
 filler_2 = Container(m = fillers_m_1.get_m, out = io.FEEDER_ON_2, lock=Lock(key=lambda: io.CONVEYOR_ON_1 or io.FEEDER_ON_1 or io.FEEDER_ON_3),closed=~io.FEEDER_ON_2,max_sp=3000)
-dfillers_1 = Dosator(m = fillers_m_1.get_m, closed = ~io.CONVEYOR_ON_1, out = io.CONVEYOR_ON_1, lock=Lock(key=lambda: io.FEEDER_ON_1 or io.FEEDER_ON_2 or io.FEEDER_ON_3), containers=(filler_1,filler_2))
+dfillers_1 = Dosator(m = fillers_m_1.get_m, closed = ~io.CONVEYOR_ON_1, out = io.CONVEYOR_ON_1, lock=Lock(key=lambda: io.FEEDER_ON_1 or io.FEEDER_ON_2), containers=(filler_1,filler_2))
 
 vibrator_1 = Vibrator(q=io.VIBRATOR_ON_1,containers=(io.FEEDER_ON_1,io.FEEDER_ON_2),weight=fillers_m_1)
 
 motor_1 = Motor(ison=io.MIXER_ISON_1,powered = io.MIXER_ON_1 )
 tconveyor_1 = Transport(ison=io.TCONVEYOR_ISON_1,power=io.TCONVEYOR_ON_1,out=None)
-gate_1 = Gate(closed = io.MIXER_CLOSED_1,opened=io.MIXER_OPENED_1  )
+gate_1 = Gate(closed = io.MIXER_CLOSED_1,opened=io.MIXER_OPENED_1, open=io.MIXER_OPEN_1)
 mixer_1 = Mixer(gate=gate_1,motor=motor_1,flows=[ x.q for x in [auger_1,water_1,addition_1,addition_2]] + [x.q for x in [filler_1, filler_2]])
 
 ready_1 = Readiness([dcement_1,dwater_1,dadditions_1,dfillers_1])
@@ -69,7 +69,7 @@ instances = (factory_1, motor_1,gate_1,tconveyor_1,
 
 if platform=='linux':
   imotor_1 = iMOTOR(simple=True,on = io.MIXER_ON_1,ison=io.MIXER_ISON_1)
-  igate_1 = iGATE(open=io.MIXER_OPEN_1,closed=io.MIXER_CLOSED_1,opened=io.MIXER_OPENED_1,simple=True)
+  igate_1 = iGATE(open=io.MIXER_OPEN_1,closed=io.MIXER_CLOSED_1,opened=io.MIXER_OPENED_1,simple=True, close=io.MIXER_CLOSE_1)
   iauger_1 = iMOTOR(simple=True,on = io.AUGER_ON_1,ison=io.AUGER_ISON_1)
   iwpump_1 = iMOTOR(simple=True,on = io.WPUMP_ON_1,ison=io.WPUMP_ISON_1)
   iapump_1 = iMOTOR(simple=True,on = io.APUMP_ON_1,ison=io.APUMP_ISON_1)

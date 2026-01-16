@@ -130,7 +130,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>895</x>
-     <y>430</y>
+     <y>480</y>
      <width>247</width>
      <height>175</height>
     </rect>
@@ -186,7 +186,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>1076</x>
-     <y>531</y>
+     <y>581</y>
      <width>114</width>
      <height>137</height>
     </rect>
@@ -204,7 +204,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>909</x>
-     <y>585</y>
+     <y>635</y>
      <width>229</width>
      <height>71</height>
     </rect>
@@ -217,7 +217,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>1070</x>
-     <y>545</y>
+     <y>595</y>
      <width>22</width>
      <height>22</height>
     </rect>
@@ -233,7 +233,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>1102</x>
-     <y>545</y>
+     <y>595</y>
      <width>22</width>
      <height>22</height>
     </rect>
@@ -249,7 +249,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>774</x>
-     <y>230</y>
+     <y>248</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -262,7 +262,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>934</x>
-     <y>230</y>
+     <y>248</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -275,7 +275,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>1156</x>
-     <y>232</y>
+     <y>248</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -291,7 +291,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>160</x>
-     <y>560</y>
+     <y>585</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -329,7 +329,7 @@ QLabel[style='selfinfo']
   <widget class="DoserPanel" name="doserpanel_2">
    <property name="geometry">
     <rect>
-     <x>1094</x>
+     <x>1103</x>
      <y>10</y>
      <width>130</width>
      <height>100</height>
@@ -362,7 +362,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>92</x>
-     <y>334</y>
+     <y>359</y>
      <width>130</width>
      <height>100</height>
     </rect>
@@ -375,7 +375,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>229</x>
-     <y>333</y>
+     <y>358</y>
      <width>130</width>
      <height>100</height>
     </rect>
@@ -388,7 +388,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>580</y>
+     <y>605</y>
      <width>392</width>
      <height>54</height>
     </rect>
@@ -463,7 +463,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>84</x>
-     <y>372</y>
+     <y>397</y>
      <width>146</width>
      <height>126</height>
     </rect>
@@ -512,7 +512,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>373</y>
+     <y>398</y>
      <width>146</width>
      <height>126</height>
     </rect>
@@ -561,7 +561,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>794</x>
-     <y>220</y>
+     <y>238</y>
      <width>113</width>
      <height>238</height>
     </rect>
@@ -641,7 +641,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>945</x>
-     <y>219</y>
+     <y>237</y>
      <width>115</width>
      <height>174</height>
     </rect>
@@ -693,7 +693,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>1182</x>
-     <y>222</y>
+     <y>238</y>
      <width>86</width>
      <height>131</height>
     </rect>
@@ -745,7 +745,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>836</x>
-     <y>380</y>
+     <y>407</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -763,7 +763,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>987</x>
-     <y>377</y>
+     <y>403</y>
      <width>32</width>
      <height>95</height>
     </rect>
@@ -781,7 +781,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>1210</x>
-     <y>337</y>
+     <y>365</y>
      <width>32</width>
      <height>95</height>
     </rect>
@@ -799,7 +799,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>490</y>
+     <y>515</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -817,7 +817,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>163</x>
-     <y>490</y>
+     <y>515</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -835,7 +835,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>254</x>
-     <y>490</y>
+     <y>515</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -853,7 +853,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>300</x>
-     <y>490</y>
+     <y>515</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -871,7 +871,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>510</x>
-     <y>414</y>
+     <y>454</y>
      <width>201</width>
      <height>204</height>
     </rect>
@@ -885,8 +885,8 @@ QLabel[style='selfinfo']
   <widget class="RuntimeTrend" name="runtimetrend">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>17</y>
+     <x>60</x>
+     <y>20</y>
      <width>702</width>
      <height>294</height>
     </rect>
@@ -1003,7 +1003,7 @@ font-size: 8pt;</string>
   <widget class="Animation" name="container_3">
    <property name="geometry">
     <rect>
-     <x>1119</x>
+     <x>1128</x>
      <y>134</y>
      <width>84</width>
      <height>82</height>
@@ -1095,7 +1095,7 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="mixer_i">
    <property name="geometry">
     <rect>
-     <x>73</x>
+     <x>113</x>
      <y>29</y>
      <width>67</width>
      <height>34</height>
@@ -1115,7 +1115,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>870</x>
-     <y>400</y>
+     <y>450</y>
      <width>125</width>
      <height>45</height>
     </rect>
@@ -1146,7 +1146,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>1040</x>
-     <y>400</y>
+     <y>450</y>
      <width>125</width>
      <height>45</height>
     </rect>
@@ -1177,7 +1177,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>210</x>
-     <y>440</y>
+     <y>465</y>
      <width>32</width>
      <height>32</height>
     </rect>
@@ -1205,7 +1205,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>610</x>
-     <y>490</y>
+     <y>530</y>
      <width>204</width>
      <height>93</height>
     </rect>
@@ -1214,8 +1214,8 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="scantime">
    <property name="geometry">
     <rect>
-     <x>1311</x>
-     <y>715</y>
+     <x>0</x>
+     <y>0</y>
      <width>66</width>
      <height>19</height>
     </rect>
@@ -1233,8 +1233,8 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="powered">
    <property name="geometry">
     <rect>
-     <x>1311</x>
-     <y>739</y>
+     <x>0</x>
+     <y>24</y>
      <width>66</width>
      <height>19</height>
     </rect>
@@ -1253,7 +1253,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>1270</x>
-     <y>320</y>
+     <y>336</y>
      <width>38</width>
      <height>34</height>
     </rect>
@@ -1279,7 +1279,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>1061</x>
-     <y>341</y>
+     <y>350</y>
      <width>38</width>
      <height>34</height>
     </rect>
@@ -1305,7 +1305,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>890</x>
-     <y>340</y>
+     <y>358</y>
      <width>38</width>
      <height>34</height>
     </rect>
@@ -1325,28 +1325,6 @@ font-size: 8pt;</string>
    </property>
    <property name="flat">
     <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>4</x>
-     <y>752</y>
-     <width>121</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>1</string>
-   </property>
-   <property name="textFormat">
-    <enum>Qt::RichText</enum>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-   <property name="style" stdset="0">
-    <string>textinfo</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -1396,7 +1374,7 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>1083</x>
+     <x>1092</x>
      <y>110</y>
      <width>160</width>
      <height>21</height>
@@ -1441,7 +1419,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>160</x>
-     <y>480</y>
+     <y>524</y>
      <width>130</width>
      <height>21</height>
     </rect>
@@ -1506,8 +1484,8 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>1140</x>
-     <y>510</y>
+     <x>1190</x>
+     <y>670</y>
      <width>180</width>
      <height>21</height>
     </rect>
@@ -1528,9 +1506,97 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>1140</x>
-     <y>480</y>
+     <x>934</x>
+     <y>702</y>
      <width>180</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>166</x>
+     <y>660</y>
+     <width>130</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>781</x>
+     <y>200</y>
+     <width>130</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>207</y>
+     <width>130</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>938</x>
+     <y>213</y>
+     <width>130</width>
      <height>21</height>
     </rect>
    </property>
@@ -1591,7 +1657,6 @@ font-size: 8pt;</string>
   <zorder>fail_3</zorder>
   <zorder>fail_2</zorder>
   <zorder>fail_1</zorder>
-  <zorder>label_2</zorder>
   <zorder>label_3</zorder>
   <zorder>label_4</zorder>
   <zorder>label_5</zorder>
@@ -1601,6 +1666,10 @@ font-size: 8pt;</string>
   <zorder>label_9</zorder>
   <zorder>label_10</zorder>
   <zorder>label_11</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_12</zorder>
  </widget>
  <customwidgets>
   <customwidget>
