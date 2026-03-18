@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1429</width>
-    <height>785</height>
+    <width>1607</width>
+    <height>873</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -123,14 +123,15 @@ QLabel[style='textinfo']
 }
 QLabel[style='selfinfo']
 {
-	font-size: 7pt;
+	font-size: 10pt;
+	font-family: Roboto;
 }</string>
   </property>
   <widget class="Animation" name="mixer_1">
    <property name="geometry">
     <rect>
-     <x>895</x>
-     <y>480</y>
+     <x>1011</x>
+     <y>590</y>
      <width>247</width>
      <height>175</height>
     </rect>
@@ -185,8 +186,8 @@ QLabel[style='selfinfo']
   <widget class="Animation" name="mgate_1">
    <property name="geometry">
     <rect>
-     <x>1076</x>
-     <y>581</y>
+     <x>1192</x>
+     <y>691</y>
      <width>114</width>
      <height>137</height>
     </rect>
@@ -203,8 +204,8 @@ QLabel[style='selfinfo']
   <widget class="MixerPanel" name="mixerpanel_0">
    <property name="geometry">
     <rect>
-     <x>909</x>
-     <y>635</y>
+     <x>1025</x>
+     <y>745</y>
      <width>229</width>
      <height>71</height>
     </rect>
@@ -216,8 +217,8 @@ QLabel[style='selfinfo']
   <widget class="QLabel" name="mopened_1">
    <property name="geometry">
     <rect>
-     <x>1070</x>
-     <y>595</y>
+     <x>1186</x>
+     <y>705</y>
      <width>22</width>
      <height>22</height>
     </rect>
@@ -232,8 +233,8 @@ QLabel[style='selfinfo']
   <widget class="QLabel" name="mclosed_1">
    <property name="geometry">
     <rect>
-     <x>1102</x>
-     <y>595</y>
+     <x>1218</x>
+     <y>705</y>
      <width>22</width>
      <height>22</height>
     </rect>
@@ -248,8 +249,8 @@ QLabel[style='selfinfo']
   <widget class="DosatorPanel" name="dosatorpanel_0">
    <property name="geometry">
     <rect>
-     <x>774</x>
-     <y>248</y>
+     <x>810</x>
+     <y>364</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -261,8 +262,8 @@ QLabel[style='selfinfo']
   <widget class="DosatorPanel" name="dosatorpanel_1">
    <property name="geometry">
     <rect>
-     <x>934</x>
-     <y>248</y>
+     <x>1066</x>
+     <y>358</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -274,8 +275,8 @@ QLabel[style='selfinfo']
   <widget class="DosatorPanel" name="dosatorpanel_2">
    <property name="geometry">
     <rect>
-     <x>1156</x>
-     <y>248</y>
+     <x>1288</x>
+     <y>382</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -291,7 +292,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>160</x>
-     <y>585</y>
+     <y>695</y>
      <width>140</width>
      <height>60</height>
     </rect>
@@ -303,8 +304,8 @@ QLabel[style='selfinfo']
   <widget class="DoserPanel" name="doserpanel_0">
    <property name="geometry">
     <rect>
-     <x>774</x>
-     <y>10</y>
+     <x>760</x>
+     <y>90</y>
      <width>130</width>
      <height>100</height>
     </rect>
@@ -316,8 +317,8 @@ QLabel[style='selfinfo']
   <widget class="DoserPanel" name="doserpanel_1">
    <property name="geometry">
     <rect>
-     <x>934</x>
-     <y>10</y>
+     <x>1066</x>
+     <y>90</y>
      <width>130</width>
      <height>100</height>
     </rect>
@@ -329,8 +330,8 @@ QLabel[style='selfinfo']
   <widget class="DoserPanel" name="doserpanel_2">
    <property name="geometry">
     <rect>
-     <x>1103</x>
-     <y>10</y>
+     <x>1235</x>
+     <y>90</y>
      <width>130</width>
      <height>100</height>
     </rect>
@@ -345,8 +346,8 @@ QLabel[style='selfinfo']
   <widget class="DoserPanel" name="doserpanel_3">
    <property name="geometry">
     <rect>
-     <x>1234</x>
-     <y>10</y>
+     <x>1366</x>
+     <y>90</y>
      <width>130</width>
      <height>100</height>
     </rect>
@@ -362,7 +363,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>92</x>
-     <y>359</y>
+     <y>469</y>
      <width>130</width>
      <height>100</height>
     </rect>
@@ -375,7 +376,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>229</x>
-     <y>358</y>
+     <y>468</y>
      <width>130</width>
      <height>100</height>
     </rect>
@@ -388,7 +389,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>605</y>
+     <y>715</y>
      <width>392</width>
      <height>54</height>
     </rect>
@@ -463,7 +464,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>84</x>
-     <y>397</y>
+     <y>507</y>
      <width>146</width>
      <height>126</height>
     </rect>
@@ -483,7 +484,7 @@ QLabel[style='selfinfo']
     <property name="geometry">
      <rect>
       <x>56</x>
-      <y>68</y>
+      <y>63</y>
       <width>32</width>
       <height>32</height>
      </rect>
@@ -507,12 +508,40 @@ QLabel[style='selfinfo']
      <string>open</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="open_8">
+    <property name="geometry">
+     <rect>
+      <x>56</x>
+      <y>95</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="style" stdset="0">
+     <string>helper</string>
+    </property>
+   </widget>
   </widget>
   <widget class="Animation" name="container_6">
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>398</y>
+     <y>513</y>
      <width>146</width>
      <height>126</height>
     </rect>
@@ -532,7 +561,7 @@ QLabel[style='selfinfo']
     <property name="geometry">
      <rect>
       <x>57</x>
-      <y>64</y>
+      <y>57</y>
       <width>32</width>
       <height>32</height>
      </rect>
@@ -560,8 +589,8 @@ QLabel[style='selfinfo']
   <widget class="Animation" name="dosator_1">
    <property name="geometry">
     <rect>
-     <x>794</x>
-     <y>238</y>
+     <x>824</x>
+     <y>354</y>
      <width>113</width>
      <height>238</height>
     </rect>
@@ -636,12 +665,30 @@ QLabel[style='selfinfo']
      <string>helper</string>
     </property>
    </widget>
+   <widget class="Animation" name="animation_5">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>154</y>
+      <width>42</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/concrete/valve.mng</string>
+     </url>
+    </property>
+    <property name="running">
+     <bool>false</bool>
+    </property>
+   </widget>
   </widget>
   <widget class="Animation" name="dosator_2">
    <property name="geometry">
     <rect>
-     <x>945</x>
-     <y>237</y>
+     <x>1077</x>
+     <y>347</y>
      <width>115</width>
      <height>174</height>
     </rect>
@@ -692,8 +739,8 @@ QLabel[style='selfinfo']
   <widget class="Animation" name="dosator_3">
    <property name="geometry">
     <rect>
-     <x>1182</x>
-     <y>238</y>
+     <x>1314</x>
+     <y>372</y>
      <width>86</width>
      <height>131</height>
     </rect>
@@ -744,8 +791,8 @@ QLabel[style='selfinfo']
   <widget class="Animation" name="rain_1">
    <property name="geometry">
     <rect>
-     <x>836</x>
-     <y>407</y>
+     <x>866</x>
+     <y>523</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -762,8 +809,8 @@ QLabel[style='selfinfo']
   <widget class="Animation" name="rain_2">
    <property name="geometry">
     <rect>
-     <x>987</x>
-     <y>403</y>
+     <x>1118</x>
+     <y>513</y>
      <width>32</width>
      <height>95</height>
     </rect>
@@ -780,8 +827,8 @@ QLabel[style='selfinfo']
   <widget class="Animation" name="rain_3">
    <property name="geometry">
     <rect>
-     <x>1210</x>
-     <y>365</y>
+     <x>1342</x>
+     <y>499</y>
      <width>32</width>
      <height>95</height>
     </rect>
@@ -799,7 +846,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>515</y>
+     <y>625</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -817,7 +864,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>163</x>
-     <y>515</y>
+     <y>625</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -835,7 +882,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>254</x>
-     <y>515</y>
+     <y>625</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -853,7 +900,7 @@ QLabel[style='selfinfo']
    <property name="geometry">
     <rect>
      <x>300</x>
-     <y>515</y>
+     <y>625</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -870,8 +917,8 @@ QLabel[style='selfinfo']
   <widget class="Animation" name="animation_2">
    <property name="geometry">
     <rect>
-     <x>510</x>
-     <y>454</y>
+     <x>560</x>
+     <y>560</y>
      <width>201</width>
      <height>204</height>
     </rect>
@@ -881,14 +928,30 @@ QLabel[style='selfinfo']
      <string>qrc:/concrete/tconveyor.mng</string>
     </url>
    </property>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>167</y>
+      <width>22</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
+    </property>
+   </widget>
   </widget>
   <widget class="RuntimeTrend" name="runtimetrend">
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>20</y>
-     <width>702</width>
-     <height>294</height>
+     <y>10</y>
+     <width>641</width>
+     <height>371</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -911,8 +974,8 @@ font-size: 8pt;</string>
   <widget class="Animation" name="container_1">
    <property name="geometry">
     <rect>
-     <x>792</x>
-     <y>149</y>
+     <x>772</x>
+     <y>265</y>
      <width>106</width>
      <height>50</height>
     </rect>
@@ -957,8 +1020,8 @@ font-size: 8pt;</string>
   <widget class="Animation" name="container_2">
    <property name="geometry">
     <rect>
-     <x>959</x>
-     <y>134</y>
+     <x>1091</x>
+     <y>217</y>
      <width>84</width>
      <height>82</height>
     </rect>
@@ -1003,8 +1066,8 @@ font-size: 8pt;</string>
   <widget class="Animation" name="container_3">
    <property name="geometry">
     <rect>
-     <x>1128</x>
-     <y>134</y>
+     <x>1255</x>
+     <y>243</y>
      <width>84</width>
      <height>82</height>
     </rect>
@@ -1049,8 +1112,8 @@ font-size: 8pt;</string>
   <widget class="Animation" name="container_4">
    <property name="geometry">
     <rect>
-     <x>1256</x>
-     <y>132</y>
+     <x>1388</x>
+     <y>242</y>
      <width>84</width>
      <height>82</height>
     </rect>
@@ -1096,7 +1159,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>113</x>
-     <y>29</y>
+     <y>20</y>
      <width>67</width>
      <height>34</height>
     </rect>
@@ -1114,8 +1177,8 @@ font-size: 8pt;</string>
   <widget class="QPushButton" name="dopen_5">
    <property name="geometry">
     <rect>
-     <x>870</x>
-     <y>450</y>
+     <x>986</x>
+     <y>560</y>
      <width>125</width>
      <height>45</height>
     </rect>
@@ -1145,8 +1208,8 @@ font-size: 8pt;</string>
   <widget class="QPushButton" name="dopen_6">
    <property name="geometry">
     <rect>
-     <x>1040</x>
-     <y>450</y>
+     <x>1156</x>
+     <y>560</y>
      <width>125</width>
      <height>45</height>
     </rect>
@@ -1173,39 +1236,11 @@ font-size: 8pt;</string>
     <string>warning</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="open_8">
-   <property name="geometry">
-    <rect>
-     <x>210</x>
-     <y>465</y>
-     <width>32</width>
-     <height>32</height>
-    </rect>
-   </property>
-   <property name="cursor">
-    <cursorShape>PointingHandCursor</cursorShape>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>24</width>
-     <height>24</height>
-    </size>
-   </property>
-   <property name="flat">
-    <bool>true</bool>
-   </property>
-   <property name="style" stdset="0">
-    <string>helper</string>
-   </property>
-  </widget>
   <widget class="TConveyorPanel" name="tconveyorpanel">
    <property name="geometry">
     <rect>
-     <x>610</x>
-     <y>530</y>
+     <x>670</x>
+     <y>640</y>
      <width>204</width>
      <height>93</height>
     </rect>
@@ -1215,7 +1250,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>0</y>
+     <y>16</y>
      <width>66</width>
      <height>19</height>
     </rect>
@@ -1234,7 +1269,7 @@ font-size: 8pt;</string>
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>24</y>
+     <y>40</y>
      <width>66</width>
      <height>19</height>
     </rect>
@@ -1252,8 +1287,8 @@ font-size: 8pt;</string>
   <widget class="QPushButton" name="fail_3">
    <property name="geometry">
     <rect>
-     <x>1270</x>
-     <y>336</y>
+     <x>1402</x>
+     <y>470</y>
      <width>38</width>
      <height>34</height>
     </rect>
@@ -1278,8 +1313,8 @@ font-size: 8pt;</string>
   <widget class="QPushButton" name="fail_2">
    <property name="geometry">
     <rect>
-     <x>1061</x>
-     <y>350</y>
+     <x>1193</x>
+     <y>460</y>
      <width>38</width>
      <height>34</height>
     </rect>
@@ -1304,8 +1339,8 @@ font-size: 8pt;</string>
   <widget class="QPushButton" name="fail_1">
    <property name="geometry">
     <rect>
-     <x>890</x>
-     <y>358</y>
+     <x>920</x>
+     <y>474</y>
      <width>38</width>
      <height>34</height>
     </rect>
@@ -1330,14 +1365,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>757</x>
-     <y>114</y>
+     <x>737</x>
+     <y>246</y>
      <width>170</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1352,14 +1387,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>927</x>
-     <y>113</y>
-     <width>150</width>
+     <x>1039</x>
+     <y>193</y>
+     <width>191</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1374,14 +1409,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>1092</x>
-     <y>110</y>
-     <width>160</width>
+     <x>1209</x>
+     <y>221</y>
+     <width>181</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1396,14 +1431,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>1225</x>
-     <y>110</y>
-     <width>150</width>
+     <x>1338</x>
+     <y>220</y>
+     <width>191</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1418,14 +1453,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>524</y>
+     <x>93</x>
+     <y>430</y>
      <width>130</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>Ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1440,14 +1475,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>92</x>
-     <y>314</y>
-     <width>130</width>
+     <x>53</x>
+     <y>447</y>
+     <width>211</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>Ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1462,14 +1497,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>229</x>
-     <y>314</y>
-     <width>130</width>
+     <x>172</x>
+     <y>448</y>
+     <width>241</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>Ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1484,14 +1519,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>1190</x>
-     <y>670</y>
-     <width>180</width>
+     <x>1010</x>
+     <y>840</y>
+     <width>241</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1506,14 +1541,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>934</x>
-     <y>702</y>
-     <width>180</width>
+     <x>1010</x>
+     <y>812</y>
+     <width>241</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1528,14 +1563,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_12">
    <property name="geometry">
     <rect>
-     <x>166</x>
-     <y>660</y>
-     <width>130</width>
+     <x>100</x>
+     <y>770</y>
+     <width>261</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>Ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1550,14 +1585,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_13">
    <property name="geometry">
     <rect>
-     <x>781</x>
-     <y>200</y>
-     <width>130</width>
+     <x>772</x>
+     <y>330</y>
+     <width>221</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1572,14 +1607,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_14">
    <property name="geometry">
     <rect>
-     <x>1160</x>
-     <y>207</y>
-     <width>130</width>
+     <x>1284</x>
+     <y>352</y>
+     <width>151</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1594,14 +1629,14 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_15">
    <property name="geometry">
     <rect>
-     <x>938</x>
-     <y>213</y>
+     <x>1069</x>
+     <y>326</y>
      <width>130</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>1</string>
+    <string>ожидание</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -1613,10 +1648,352 @@ font-size: 8pt;</string>
     <string>selfinfo</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="open_10">
+   <property name="geometry">
+    <rect>
+     <x>277</x>
+     <y>601</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+   <property name="style" stdset="0">
+    <string>helper</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>228</x>
+     <y>433</y>
+     <width>130</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ожидание</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>873</x>
+     <y>245</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ожидание</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="Animation" name="container_7">
+   <property name="geometry">
+    <rect>
+     <x>908</x>
+     <y>265</y>
+     <width>106</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::CustomContextMenu</enum>
+   </property>
+   <property name="source">
+    <url>
+     <string>qrc:/concrete/lauger.mng</string>
+    </url>
+   </property>
+   <widget class="QPushButton" name="open_7">
+    <property name="geometry">
+     <rect>
+      <x>38</x>
+      <y>8</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="style" stdset="0">
+     <string>open</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="DoserPanel" name="doserpanel">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>90</y>
+     <width>130</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>СИЛОС-2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>40</y>
+     <width>64</width>
+     <height>204</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/images/silage-sh.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>40</y>
+     <width>64</width>
+     <height>204</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/images/silage-sh.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>815</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Мотор:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>840</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Затвор:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>selfinfo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>47</x>
+     <y>730</y>
+     <width>22</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
+   </property>
+  </widget>
+  <widget class="Animation" name="animation_3">
+   <property name="geometry">
+    <rect>
+     <x>1410</x>
+     <y>320</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="source">
+    <url>
+     <string>qrc:/concrete/valve.mng</string>
+    </url>
+   </property>
+   <property name="running">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="Animation" name="animation_4">
+   <property name="geometry">
+    <rect>
+     <x>1275</x>
+     <y>319</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="source">
+    <url>
+     <string>qrc:/concrete/valve.mng</string>
+    </url>
+   </property>
+   <property name="running">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="Animation" name="animation_6">
+   <property name="geometry">
+    <rect>
+     <x>1113</x>
+     <y>289</y>
+     <width>42</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="source">
+    <url>
+     <string>qrc:/concrete/valve.mng</string>
+    </url>
+   </property>
+   <property name="running">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>735</x>
+     <y>156</y>
+     <width>22</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/red.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>906</x>
+     <y>67</y>
+     <width>22</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>908</x>
+     <y>155</y>
+     <width>22</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/red.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>735</x>
+     <y>70</y>
+     <width>22</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label_18</zorder>
+  <zorder>label_2</zorder>
   <zorder>animation_2</zorder>
   <zorder>rain_2</zorder>
   <zorder>dosator_3</zorder>
-  <zorder>dosator_2</zorder>
   <zorder>dosator_1</zorder>
   <zorder>container_5</zorder>
   <zorder>mixer_1</zorder>
@@ -1625,7 +2002,6 @@ font-size: 8pt;</string>
   <zorder>mopened_1</zorder>
   <zorder>mclosed_1</zorder>
   <zorder>dosatorpanel_0</zorder>
-  <zorder>dosatorpanel_1</zorder>
   <zorder>dosatorpanel_2</zorder>
   <zorder>doserpanel_0</zorder>
   <zorder>doserpanel_1</zorder>
@@ -1650,7 +2026,6 @@ font-size: 8pt;</string>
   <zorder>mixer_i</zorder>
   <zorder>dopen_5</zorder>
   <zorder>dopen_6</zorder>
-  <zorder>open_8</zorder>
   <zorder>tconveyorpanel</zorder>
   <zorder>scantime</zorder>
   <zorder>powered</zorder>
@@ -1670,6 +2045,23 @@ font-size: 8pt;</string>
   <zorder>label_14</zorder>
   <zorder>label_15</zorder>
   <zorder>label_12</zorder>
+  <zorder>open_10</zorder>
+  <zorder>label_16</zorder>
+  <zorder>label_17</zorder>
+  <zorder>container_7</zorder>
+  <zorder>doserpanel</zorder>
+  <zorder>label_19</zorder>
+  <zorder>label_20</zorder>
+  <zorder>label_21</zorder>
+  <zorder>animation_3</zorder>
+  <zorder>animation_4</zorder>
+  <zorder>dosator_2</zorder>
+  <zorder>dosatorpanel_1</zorder>
+  <zorder>animation_6</zorder>
+  <zorder>label_23</zorder>
+  <zorder>label_24</zorder>
+  <zorder>label_25</zorder>
+  <zorder>label_26</zorder>
  </widget>
  <customwidgets>
   <customwidget>
