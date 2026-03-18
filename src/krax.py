@@ -24,7 +24,7 @@ water_m_1 = Weight(raw=io.WATER_M_1, mmax=500)
 water_1 = Container(m = water_m_1.get_m, out = io.WPUMP_ON_1, lock=Lock(key=~io.DWATER_CLOSED_1),closed=~io.WPUMP_ON_1,max_sp=500)
 dwater_1 = Dosator(m = water_m_1.get_m, closed = io.DWATER_CLOSED_1, out = io.DWATER_OPEN_1, lock=Lock(key=io.WPUMP_ON_1), containers=(water_1,))
 
-additions_m_1 = Weight(raw=io.ADDITION_M_1, mmax=500)
+additions_m_1 = Weight(raw=io.ADDITION_M_1, mmax=50)
 addition_1 = Container(m = additions_m_1.get_m, out = io.APUMP_ON_1, lock=Lock(key=lambda: not io.DADDITIONS_CLOSED_1 or io.APUMP_ON_2),closed=~io.APUMP_ON_1,max_sp=50)
 addition_2 = Container(m = additions_m_1.get_m, out = io.APUMP_ON_2, lock=Lock(key=lambda: not io.DADDITIONS_CLOSED_1 or io.APUMP_ON_1),closed=~io.APUMP_ON_2,max_sp=50)
 dadditions_1 = Dosator(m = additions_m_1.get_m, closed = io.DADDITIONS_CLOSED_1, out = io.DADDITIONS_OPEN_1, lock=Lock(key=lambda: io.APUMP_ON_1 or io.APUMP_ON_2), containers=(addition_1,addition_2))

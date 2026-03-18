@@ -11,7 +11,7 @@
     "upydev": "/home/vlinnik/.local/bin/upydev",
     "serial": "/home/vlinnik/.local/bin/mpremote"
   },
-  "project": "ETALON-250613",
+  "project": "TECHRE-170326",
   "target": "192.168.4.1",
   "is_serial": false
 }
