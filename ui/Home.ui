@@ -125,6 +125,10 @@ QLabel[style='selfinfo']
 {
 	font-size: 10pt;
 	font-family: Roboto;
+}
+QPushButton[style=&quot;bg&quot;]
+{
+background-color: rgb(94, 92, 100);
 }</string>
   </property>
   <widget class="Animation" name="mixer_1">
@@ -180,6 +184,22 @@ QLabel[style='selfinfo']
     </property>
     <property name="style" stdset="0">
      <string>badge</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>109</x>
+      <y>7</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/bell.png</pixmap>
     </property>
    </widget>
   </widget>
@@ -663,24 +683,6 @@ QLabel[style='selfinfo']
     </property>
     <property name="style" stdset="0">
      <string>helper</string>
-    </property>
-   </widget>
-   <widget class="Animation" name="animation_5">
-    <property name="geometry">
-     <rect>
-      <x>35</x>
-      <y>154</y>
-      <width>42</width>
-      <height>42</height>
-     </rect>
-    </property>
-    <property name="source">
-     <url>
-      <string>qrc:/concrete/valve.mng</string>
-     </url>
-    </property>
-    <property name="running">
-     <bool>false</bool>
     </property>
    </widget>
   </widget>
@@ -1607,9 +1609,9 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_14">
    <property name="geometry">
     <rect>
-     <x>1284</x>
+     <x>1267</x>
      <y>352</y>
-     <width>151</width>
+     <width>181</width>
      <height>21</height>
     </rect>
    </property>
@@ -1629,9 +1631,9 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="label_15">
    <property name="geometry">
     <rect>
-     <x>1069</x>
+     <x>1042</x>
      <y>326</y>
-     <width>130</width>
+     <width>181</width>
      <height>21</height>
     </rect>
    </property>
@@ -1874,8 +1876,8 @@ font-size: 8pt;</string>
   <widget class="Animation" name="animation_3">
    <property name="geometry">
     <rect>
-     <x>1410</x>
-     <y>320</y>
+     <x>1468</x>
+     <y>273</y>
      <width>42</width>
      <height>42</height>
     </rect>
@@ -1888,12 +1890,40 @@ font-size: 8pt;</string>
    <property name="running">
     <bool>false</bool>
    </property>
+   <widget class="QPushButton" name="open_13">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>3</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="style" stdset="0">
+     <string>open</string>
+    </property>
+   </widget>
   </widget>
   <widget class="Animation" name="animation_4">
    <property name="geometry">
     <rect>
-     <x>1275</x>
-     <y>319</y>
+     <x>1330</x>
+     <y>275</y>
      <width>42</width>
      <height>42</height>
     </rect>
@@ -1906,12 +1936,40 @@ font-size: 8pt;</string>
    <property name="running">
     <bool>false</bool>
    </property>
+   <widget class="QPushButton" name="open_12">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>3</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="style" stdset="0">
+     <string>open</string>
+    </property>
+   </widget>
   </widget>
   <widget class="Animation" name="animation_6">
    <property name="geometry">
     <rect>
-     <x>1113</x>
-     <y>289</y>
+     <x>1171</x>
+     <y>249</y>
      <width>42</width>
      <height>42</height>
     </rect>
@@ -1924,6 +1982,34 @@ font-size: 8pt;</string>
    <property name="running">
     <bool>false</bool>
    </property>
+   <widget class="QPushButton" name="open_11">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>2</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="style" stdset="0">
+     <string>open</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QLabel" name="label_23">
    <property name="geometry">
@@ -1987,6 +2073,139 @@ font-size: 8pt;</string>
    </property>
    <property name="pixmap">
     <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>625</y>
+     <width>44</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../concretetheme.git/concrete.qrc">
+     <normaloff>:/concrete/bell.png</normaloff>:/concrete/bell.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="style" stdset="0">
+    <string>bg</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>723</x>
+     <y>111</y>
+     <width>36</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../concretetheme.git/concrete.qrc">
+     <normaloff>:/concrete/power.png</normaloff>:/concrete/power.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="style" stdset="0">
+    <string>bg</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>893</x>
+     <y>111</y>
+     <width>36</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../concretetheme.git/concrete.qrc">
+     <normaloff>:/concrete/power.png</normaloff>:/concrete/power.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="style" stdset="0">
+    <string>bg</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>907</x>
+     <y>204</y>
+     <width>44</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../concretetheme.git/concrete.qrc">
+     <normaloff>:/concrete/bolt.png</normaloff>:/concrete/bolt.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="style" stdset="0">
+    <string>bg</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>738</x>
+     <y>204</y>
+     <width>44</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../concretetheme.git/concrete.qrc">
+     <normaloff>:/concrete/bolt.png</normaloff>:/concrete/bolt.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="style" stdset="0">
+    <string>bg</string>
    </property>
   </widget>
   <zorder>label_18</zorder>
@@ -2062,6 +2281,11 @@ font-size: 8pt;</string>
   <zorder>label_24</zorder>
   <zorder>label_25</zorder>
   <zorder>label_26</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_5</zorder>
  </widget>
  <customwidgets>
   <customwidget>

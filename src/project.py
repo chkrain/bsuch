@@ -1,2 +1,2 @@
-name = 'ETALON-250613'
+name = 'chelny'
 version_short = 'v0.0.1'

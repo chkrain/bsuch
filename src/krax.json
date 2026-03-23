@@ -7,6 +7,8 @@
         1,
         1,
         1,
+        1,
+        1,
         1
     ],
     "node_id": 1,
@@ -17,25 +19,17 @@
         "channel": 1,
         "rate": 9
     },
-    "layout": [
-        "08:d1:f9:27:ff:00",
-        "94:b5:55:26:2d:7c",
-        "b4:8a:0a:8f:06:a0",
-        "b4:8a:0a:8e:fb:c0",
-        "94:b5:55:f9:05:70",
-        "5c:01:3b:33:22:c8",
-        "b4:8a:0a:8e:ff:8c",
-        "94:b5:55:2c:d6:30"
-    ],
     "devs": [
         "KRAX AI-455",
         "KRAX AI-455",
-        "KRAX DI-430",
-        "KRAX DI-430",
-        "KRAX DI-430",
         "KRAX DO-530",
         "KRAX DO-530",
-        "KRAX DO-530"
+        "KRAX DO-530",
+        "KRAX DO-530",
+        "KRAX DI-430",
+        "KRAX DI-430",
+        "KRAX DI-430",
+        "KRAX DI-430"
     ],
     "via": "0.0.0.0"
 }
