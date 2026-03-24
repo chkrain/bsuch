@@ -4,7 +4,7 @@ from pyplc.utils.latch import RS
 from pyplc.utils.trig import RTRIG
 from concrete import Factory,Motor, Mixer, MSGate as Gate,Lock,Transport,Weight,Container,Dosator,Manager,Readiness,Loaded
 from concrete.vibrator import Vibrator,UnloadHelper
-from concrete.imitation import iMOTOR,iGATE,iVALVE,iWEIGHT
+from concrete.imitation import iMOTOR,iGATE,iVALVE,iWEIGHT,IRotation
 from sys import platform
 from pyplc.utils.misc import TOF
 from pyplc.pou import POU 
@@ -76,7 +76,8 @@ manager_1 = Manager( mixer=mixer_1,collected=ready_1,loaded = loaded_1,dosators=
 
 factory_1.on_mode = [ x.switch_mode for x in [dcement_1,dwater_1,dadditions_1,dfillers_1] ]
 factory_1.on_emergency = [ x.emergency for x in [dcement_1,dwater_1,dadditions_1,dfillers_1,mixer_1,manager_1] ]
-factory_1.emergency = io.POWERFAIL or io.ACCIDENT
+factory_1.emergency = io.ACCIDENT
+factory_1.powerfail = io.POWERFAIL
 
 instances = (factory_1, motor_1,gate_1,tconveyor_1,
             cement_m_1,auger_1,auger_2,dcement_1,
@@ -107,6 +108,8 @@ if platform=='linux':
   idadditions_1 = iVALVE(open=io.DADDITIONS_OPEN_1,closed=io.DADDITIONS_CLOSED_1)
   ifeeder_1 = iMOTOR(simple=True,on = io.FEEDER_OPEN_1,ison=io.GFEEDER_OPENED_1)
   ifeeder_2 = iMOTOR(simple=True,on = io.FEEDER_OPEN_2,ison=io.GFEEDER_OPENED_2)
+  ibelt_1 = IRotation( q = io.CONVEYOR_ON_1, rot = io.BELT_1 )
+  ibelt_2 = IRotation( q = io.TCONVEYOR_ON_1, rot = io.BELT_2 )
   
   icement_m_1 = iWEIGHT(speed=100,loading=lambda: io.AUGER_ON_1 or io.AUGER_ON_2, unloading=io.DCEMENT_OPEN_1, q = io.CEMENT_M_1)
   iwater_m_1 = iWEIGHT(speed=100,loading=lambda: io.GWATER_OPEN_1, unloading=io.DWATER_OPEN_1, q = io.WATER_M_1)
@@ -114,6 +117,6 @@ if platform=='linux':
   ifillers_m_1 = iWEIGHT(speed=100,loading=lambda: io.FEEDER_OPEN_1 or io.FEEDER_OPEN_2, unloading=io.CONVEYOR_ON_1, q = io.FILLERS_M_1)
     
   instances += (imotor_1,igate_1,iauger_1,iauger_2,iwpump_1,iapump_1,iapump_2,iconveyor_1,itconveyor_1,idcement_1,igwater_1,idwater_1,igadditions_1,igadditions_2,idadditions_1,ifeeder_1,ifeeder_2,
-                icement_m_1,iwater_m_1,iadditions_m_1,ifillers_m_1)
+                icement_m_1,iwater_m_1,iadditions_m_1,ifillers_m_1, ibelt_1, ibelt_2)
 
 plc.run( instances=instances, ctx=globals() )

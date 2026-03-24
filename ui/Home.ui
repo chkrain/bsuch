@@ -129,6 +129,15 @@ QLabel[style='selfinfo']
 QPushButton[style=&quot;bg&quot;]
 {
 background-color: rgb(94, 92, 100);
+}
+QLabel[style='emerg']
+{
+	font-size: 16pt;
+	font-family: Roboto;
+	background-color: rgb(237, 51, 59);
+	color: rgb(248, 228, 92);
+	padding: 12px;
+	border-radius: 4px;
 }</string>
   </property>
   <widget class="Animation" name="mixer_1">
@@ -884,7 +893,7 @@ background-color: rgb(94, 92, 100);
    <property name="geometry">
     <rect>
      <x>254</x>
-     <y>625</y>
+     <y>630</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -902,7 +911,7 @@ background-color: rgb(94, 92, 100);
    <property name="geometry">
     <rect>
      <x>300</x>
-     <y>625</y>
+     <y>629</y>
      <width>30</width>
      <height>33</height>
     </rect>
@@ -950,9 +959,9 @@ background-color: rgb(94, 92, 100);
   <widget class="RuntimeTrend" name="runtimetrend">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>50</x>
      <y>10</y>
-     <width>641</width>
+     <width>651</width>
      <height>371</height>
     </rect>
    </property>
@@ -2208,6 +2217,57 @@ font-size: 8pt;</string>
     <string>bg</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label_28">
+   <property name="geometry">
+    <rect>
+     <x>1199</x>
+     <y>820</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/auto-mixer.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_29">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>307</y>
+     <width>291</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>НАЖАТА КНОПКА АВАРИЯ</string>
+   </property>
+   <property name="style" stdset="0">
+    <string>emerg</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_30">
+   <property name="geometry">
+    <rect>
+     <x>87</x>
+     <y>307</y>
+     <width>331</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>АВАРИЯ СЕТЕВОГО ПИТАНИЯ</string>
+   </property>
+   <property name="style" stdset="0">
+    <string>emerg</string>
+   </property>
+  </widget>
+  <zorder>runtimetrend</zorder>
+  <zorder>label_30</zorder>
+  <zorder>label_29</zorder>
   <zorder>label_18</zorder>
   <zorder>label_2</zorder>
   <zorder>animation_2</zorder>
@@ -2216,8 +2276,6 @@ font-size: 8pt;</string>
   <zorder>dosator_1</zorder>
   <zorder>container_5</zorder>
   <zorder>mixer_1</zorder>
-  <zorder>mgate_1</zorder>
-  <zorder>mixerpanel_0</zorder>
   <zorder>mopened_1</zorder>
   <zorder>mclosed_1</zorder>
   <zorder>dosatorpanel_0</zorder>
@@ -2237,12 +2295,10 @@ font-size: 8pt;</string>
   <zorder>rain_5</zorder>
   <zorder>rain_6</zorder>
   <zorder>rain_7</zorder>
-  <zorder>runtimetrend</zorder>
   <zorder>container_1</zorder>
   <zorder>container_2</zorder>
   <zorder>container_3</zorder>
   <zorder>container_4</zorder>
-  <zorder>mixer_i</zorder>
   <zorder>dopen_5</zorder>
   <zorder>dopen_6</zorder>
   <zorder>tconveyorpanel</zorder>
@@ -2286,6 +2342,10 @@ font-size: 8pt;</string>
   <zorder>pushButton_3</zorder>
   <zorder>pushButton_4</zorder>
   <zorder>pushButton_5</zorder>
+  <zorder>label_28</zorder>
+  <zorder>mgate_1</zorder>
+  <zorder>mixerpanel_0</zorder>
+  <zorder>mixer_i</zorder>
  </widget>
  <customwidgets>
   <customwidget>
