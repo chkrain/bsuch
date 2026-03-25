@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>АСУ БСУ 250613 (с) 2025</string>
+   <string>АСУ БСУ Набережные Челны 2026 (с) 2026</string>
   </property>
   <property name="styleSheet">
    <string notr="true">#centralwidget,#Home
@@ -137,6 +137,15 @@ QLabel[style='emerg']
 	background-color: rgb(237, 51, 59);
 	color: rgb(248, 228, 92);
 	padding: 12px;
+	border-radius: 4px;
+}
+QLabel[style='accid']
+{
+	font-size: 10pt;
+	font-family: Roboto;
+	background-color: rgb(237, 51, 59);
+	color: rgb(248, 228, 92);
+	padding: 6px;
 	border-radius: 4px;
 }</string>
   </property>
@@ -1320,6 +1329,9 @@ font-size: 8pt;</string>
    <property name="flat">
     <bool>true</bool>
    </property>
+   <property name="style" stdset="0">
+    <string/>
+   </property>
   </widget>
   <widget class="QPushButton" name="fail_2">
    <property name="geometry">
@@ -1346,6 +1358,9 @@ font-size: 8pt;</string>
    <property name="flat">
     <bool>true</bool>
    </property>
+   <property name="style" stdset="0">
+    <string/>
+   </property>
   </widget>
   <widget class="QPushButton" name="fail_1">
    <property name="geometry">
@@ -1371,6 +1386,9 @@ font-size: 8pt;</string>
    </property>
    <property name="flat">
     <bool>true</bool>
+   </property>
+   <property name="style" stdset="0">
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -2265,6 +2283,70 @@ font-size: 8pt;</string>
     <string>emerg</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label_31">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>400</y>
+     <width>355</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сработан датчик МАКС уровня без МИН уровня (С-1)</string>
+   </property>
+   <property name="style" stdset="0">
+    <string>accid</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_32">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>430</y>
+     <width>355</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сработан датчик МАКС уровня без МИН уровня (С-2)</string>
+   </property>
+   <property name="style" stdset="0">
+    <string>accid</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_33">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>460</y>
+     <width>382</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>В силосе-1 материала осталось меньше нижнего уровня</string>
+   </property>
+   <property name="style" stdset="0">
+    <string>accid</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_34">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>490</y>
+     <width>382</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>В силосе-2 материала осталось меньше нижнего уровня</string>
+   </property>
+   <property name="style" stdset="0">
+    <string>accid</string>
+   </property>
+  </widget>
   <zorder>runtimetrend</zorder>
   <zorder>label_30</zorder>
   <zorder>label_29</zorder>
@@ -2346,6 +2428,10 @@ font-size: 8pt;</string>
   <zorder>mgate_1</zorder>
   <zorder>mixerpanel_0</zorder>
   <zorder>mixer_i</zorder>
+  <zorder>label_31</zorder>
+  <zorder>label_32</zorder>
+  <zorder>label_33</zorder>
+  <zorder>label_34</zorder>
  </widget>
  <customwidgets>
   <customwidget>
