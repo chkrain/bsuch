@@ -7,11 +7,11 @@
     "miniterm": "",
     "telnet": "/usr/bin/telnet",
     "enumSerials": "/usr/bin/pyserial-ports",
-    "paths": "/home/vlinnik/.local/lib/python3.12/site-packages/../Scripts/",
-    "upydev": "/home/vlinnik/.local/bin/upydev",
-    "serial": "/home/vlinnik/.local/bin/mpremote"
+    "paths": "/home/ainur/.local/lib/python3.12/site-packages/../Scripts/",
+    "upydev": "/home/ainur/.local/bin/upydev",
+    "serial": "/home/ainur/.local/bin/mpremote"
   },
-  "project": "chelny",
-  "target": "192.168.4.1",
-  "is_serial": false
+  "project": "chelny-250817",
+  "target": "/dev/ttyUSB0",
+  "is_serial": true
 }
