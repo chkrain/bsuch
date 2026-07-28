@@ -1,0 +1,47 @@
+main:
+  stdout: "DEBUG:INFO"
+  stderr: "WARNING:"
+
+paths:                      # настройка путей проекта
+  workspace: ../../..       # рабочее пространство проекта (относительно workdir)
+  modules:
+  - ..
+  - ../..
+  simulator: .              # рабочий каталог запуска логик(и) имитаций относительно workspace
+  resources: .              # где искать файлы ресурсов относительно workdir
+  forms: ui        # где формы лежат. по умолчанию в ${workdir}/ui
+  widgets: widgets     # где widget-ы лежат. по умолчанию в ${workdir}/widgets
+  logic: .
+
+windows:
+- name: Home
+  ui: Home.ui
+
+- name: Extensions
+  ui: Extensions.ui
+  title: Дополнительно
+
+modules:
+- name: concrete6
+  args:
+    panels: "doserpanel_.*"
+
+navbar:
+  pages:
+  - Home
+  tools:
+  - Extensions
+  title: "АСУ БСУ АСК-260510 (с) 2026"
+
+devices:
+- name: PLC
+  type: PYPLC
+  args:
+    device: 192.168.1.10
+
+simulator:
+- task: master
+  exec: src/plc/krax.py
+  args:
+  - --conf
+  - src/plc/data

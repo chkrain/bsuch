@@ -26,7 +26,7 @@ def main():
     navbar.tools(Extensions)
     navbar.instance.show( )
     navbar.instance.setWindowTitle('АСУ БСУ Набережные Челны 2026 (c) 2026. Связь: info@tech-re.ru')
-    concrete6.setContainerPanels([Home.doserpanel_0, Home.doserpanel_1, Home.doserpanel_2, Home.doserpanel_3, Home.doserpanel_4, Home.doserpanel_5])
+    concrete6.setContainerPanels([Home.doserpanel_0, Home.doserpanel_1, Home.doserpanel_2, Home.doserpanel_3, Home.doserpanel_4, Home.doserpanel_5, Home.doserpanel_6])
     concrete6.reload( )
     concrete6.setMainWindow(navbar.instance)
     # или 
