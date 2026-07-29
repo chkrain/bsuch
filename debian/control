@@ -26,15 +26,3 @@ Description: <insert up to 60 chars description> (Python 3)
  <Insert long description, indented with spaces.>
  .
  This package installs the library for Python 3.
-
-Package: python-etalon-250613-doc
-Section: doc
-Architecture: all
-Multi-Arch: foreign
-Depends:
- ${sphinxdoc:Depends},
- ${misc:Depends},
-Description: <insert up to 60 chars description> (common documentation)
- <Insert long description, indented with spaces.>
- .
- This is the common documentation package.

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1607</width>
-    <height>873</height>
+    <height>867</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -166,6 +166,9 @@ QLabel[style='accid']
      <string>qrc:/concrete/mixer-planar.mng</string>
     </url>
    </property>
+   <property name="playbackHints">
+    <set>Animation::Ceaseless</set>
+   </property>
    <widget class="QLabel" name="clock">
     <property name="geometry">
      <rect>
@@ -217,7 +220,7 @@ QLabel[style='accid']
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/bell.png</pixmap>
+     <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/bell.png</pixmap>
     </property>
    </widget>
   </widget>
@@ -265,7 +268,7 @@ QLabel[style='accid']
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
+    <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="mclosed_1">
@@ -281,7 +284,7 @@ QLabel[style='accid']
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/red.png</pixmap>
+    <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/red.png</pixmap>
    </property>
   </widget>
   <widget class="DosatorPanel" name="dosatorpanel_0">
@@ -352,7 +355,7 @@ QLabel[style='accid']
     <string>СИЛОС-1</string>
    </property>
   </widget>
-  <widget class="DoserPanel" name="doserpanel_1">
+  <widget class="DoserPanel" name="doserpanel_2">
    <property name="geometry">
     <rect>
      <x>1066</x>
@@ -365,7 +368,7 @@ QLabel[style='accid']
     <string>БАК ВОДЫ</string>
    </property>
   </widget>
-  <widget class="DoserPanel" name="doserpanel_2">
+  <widget class="DoserPanel" name="doserpanel_3">
    <property name="geometry">
     <rect>
      <x>1235</x>
@@ -381,7 +384,7 @@ QLabel[style='accid']
     <number>2</number>
    </property>
   </widget>
-  <widget class="DoserPanel" name="doserpanel_3">
+  <widget class="DoserPanel" name="doserpanel_4">
    <property name="geometry">
     <rect>
      <x>1366</x>
@@ -397,7 +400,7 @@ QLabel[style='accid']
     <number>2</number>
    </property>
   </widget>
-  <widget class="DoserPanel" name="doserpanel_4">
+  <widget class="DoserPanel" name="doserpanel_5">
    <property name="geometry">
     <rect>
      <x>92</x>
@@ -410,7 +413,7 @@ QLabel[style='accid']
     <string>ИНЕРТНЫЕ-1</string>
    </property>
   </widget>
-  <widget class="DoserPanel" name="doserpanel_5">
+  <widget class="DoserPanel" name="doserpanel_6">
    <property name="geometry">
     <rect>
      <x>229</x>
@@ -484,7 +487,7 @@ QLabel[style='accid']
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="../concretetheme.git/concrete.qrc">
+     <iconset resource="../../../concretetheme.git/concrete.qrc">
       <normaloff>:/concrete/attention.png</normaloff>:/concrete/attention.png</iconset>
     </property>
     <property name="iconSize">
@@ -961,7 +964,7 @@ QLabel[style='accid']
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
+     <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
     </property>
    </widget>
   </widget>
@@ -1317,7 +1320,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="../concretetheme.git/concrete.qrc">
+    <iconset resource="../../../concretetheme.git/concrete.qrc">
      <normaloff>:/concrete/attention.png</normaloff>:/concrete/attention.png</iconset>
    </property>
    <property name="iconSize">
@@ -1346,7 +1349,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="../concretetheme.git/concrete.qrc">
+    <iconset resource="../../../concretetheme.git/concrete.qrc">
      <normaloff>:/concrete/attention.png</normaloff>:/concrete/attention.png</iconset>
    </property>
    <property name="iconSize">
@@ -1375,7 +1378,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="../concretetheme.git/concrete.qrc">
+    <iconset resource="../../../concretetheme.git/concrete.qrc">
      <normaloff>:/concrete/attention.png</normaloff>:/concrete/attention.png</iconset>
    </property>
    <property name="iconSize">
@@ -1795,7 +1798,7 @@ font-size: 8pt;</string>
     </property>
    </widget>
   </widget>
-  <widget class="DoserPanel" name="doserpanel">
+  <widget class="DoserPanel" name="doserpanel_1">
    <property name="geometry">
     <rect>
      <x>930</x>
@@ -1821,7 +1824,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/images/silage-sh.png</pixmap>
+    <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/images/silage-sh.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="label_18">
@@ -1837,7 +1840,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/images/silage-sh.png</pixmap>
+    <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/images/silage-sh.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="label_19">
@@ -1897,7 +1900,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
+    <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
    </property>
   </widget>
   <widget class="Animation" name="animation_3">
@@ -1917,34 +1920,9 @@ font-size: 8pt;</string>
    <property name="running">
     <bool>false</bool>
    </property>
-   <widget class="QPushButton" name="open_13">
-    <property name="geometry">
-     <rect>
-      <x>7</x>
-      <y>3</y>
-      <width>32</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>24</width>
-      <height>24</height>
-     </size>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-    <property name="style" stdset="0">
-     <string>open</string>
-    </property>
-   </widget>
+   <property name="playbackHints">
+    <set>Animation::Bounce</set>
+   </property>
   </widget>
   <widget class="Animation" name="animation_4">
    <property name="geometry">
@@ -1963,34 +1941,9 @@ font-size: 8pt;</string>
    <property name="running">
     <bool>false</bool>
    </property>
-   <widget class="QPushButton" name="open_12">
-    <property name="geometry">
-     <rect>
-      <x>6</x>
-      <y>3</y>
-      <width>32</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>24</width>
-      <height>24</height>
-     </size>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-    <property name="style" stdset="0">
-     <string>open</string>
-    </property>
-   </widget>
+   <property name="playbackHints">
+    <set>Animation::Bounce</set>
+   </property>
   </widget>
   <widget class="Animation" name="animation_6">
    <property name="geometry">
@@ -2006,37 +1959,9 @@ font-size: 8pt;</string>
      <string>qrc:/concrete/valve.mng</string>
     </url>
    </property>
-   <property name="running">
-    <bool>false</bool>
+   <property name="playbackHints">
+    <set>Animation::Bounce</set>
    </property>
-   <widget class="QPushButton" name="open_11">
-    <property name="geometry">
-     <rect>
-      <x>4</x>
-      <y>2</y>
-      <width>32</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>24</width>
-      <height>24</height>
-     </size>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-    <property name="style" stdset="0">
-     <string>open</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QLabel" name="label_23">
    <property name="geometry">
@@ -2051,7 +1976,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/red.png</pixmap>
+    <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/red.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="label_24">
@@ -2067,7 +1992,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
+    <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="label_25">
@@ -2083,7 +2008,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/red.png</pixmap>
+    <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/red.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="label_26">
@@ -2099,7 +2024,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
+    <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/green.png</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
@@ -2118,7 +2043,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="../concretetheme.git/concrete.qrc">
+    <iconset resource="../../../concretetheme.git/concrete.qrc">
      <normaloff>:/concrete/bell.png</normaloff>:/concrete/bell.png</iconset>
    </property>
    <property name="iconSize">
@@ -2144,7 +2069,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="../concretetheme.git/concrete.qrc">
+    <iconset resource="../../../concretetheme.git/concrete.qrc">
      <normaloff>:/concrete/power.png</normaloff>:/concrete/power.png</iconset>
    </property>
    <property name="iconSize">
@@ -2170,7 +2095,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="../concretetheme.git/concrete.qrc">
+    <iconset resource="../../../concretetheme.git/concrete.qrc">
      <normaloff>:/concrete/power.png</normaloff>:/concrete/power.png</iconset>
    </property>
    <property name="iconSize">
@@ -2196,7 +2121,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="../concretetheme.git/concrete.qrc">
+    <iconset resource="../../../concretetheme.git/concrete.qrc">
      <normaloff>:/concrete/bolt.png</normaloff>:/concrete/bolt.png</iconset>
    </property>
    <property name="iconSize">
@@ -2222,7 +2147,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="../concretetheme.git/concrete.qrc">
+    <iconset resource="../../../concretetheme.git/concrete.qrc">
      <normaloff>:/concrete/bolt.png</normaloff>:/concrete/bolt.png</iconset>
    </property>
    <property name="iconSize">
@@ -2248,7 +2173,7 @@ font-size: 8pt;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../concretetheme.git/concrete.qrc">:/concrete/auto-mixer.png</pixmap>
+    <pixmap resource="../../../concretetheme.git/concrete.qrc">:/concrete/auto-mixer.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="label_29">
@@ -2347,6 +2272,90 @@ font-size: 8pt;</string>
     <string>accid</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="open_12">
+   <property name="geometry">
+    <rect>
+     <x>1340</x>
+     <y>240</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+   <property name="style" stdset="0">
+    <string>open</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="open_13">
+   <property name="geometry">
+    <rect>
+     <x>1470</x>
+     <y>240</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+   <property name="style" stdset="0">
+    <string>open</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="open_11">
+   <property name="geometry">
+    <rect>
+     <x>1180</x>
+     <y>220</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+   <property name="style" stdset="0">
+    <string>open</string>
+   </property>
+  </widget>
   <zorder>runtimetrend</zorder>
   <zorder>label_30</zorder>
   <zorder>label_29</zorder>
@@ -2363,14 +2372,14 @@ font-size: 8pt;</string>
   <zorder>dosatorpanel_0</zorder>
   <zorder>dosatorpanel_2</zorder>
   <zorder>doserpanel_0</zorder>
-  <zorder>doserpanel_1</zorder>
   <zorder>doserpanel_2</zorder>
   <zorder>doserpanel_3</zorder>
+  <zorder>doserpanel_4</zorder>
   <zorder>animation</zorder>
   <zorder>dosatorpanel_3</zorder>
   <zorder>container_6</zorder>
+  <zorder>doserpanel_6</zorder>
   <zorder>doserpanel_5</zorder>
-  <zorder>doserpanel_4</zorder>
   <zorder>rain_1</zorder>
   <zorder>rain_3</zorder>
   <zorder>rain_4</zorder>
@@ -2406,7 +2415,7 @@ font-size: 8pt;</string>
   <zorder>label_16</zorder>
   <zorder>label_17</zorder>
   <zorder>container_7</zorder>
-  <zorder>doserpanel</zorder>
+  <zorder>doserpanel_1</zorder>
   <zorder>label_19</zorder>
   <zorder>label_20</zorder>
   <zorder>label_21</zorder>
@@ -2432,6 +2441,9 @@ font-size: 8pt;</string>
   <zorder>label_32</zorder>
   <zorder>label_33</zorder>
   <zorder>label_34</zorder>
+  <zorder>open_12</zorder>
+  <zorder>open_13</zorder>
+  <zorder>open_11</zorder>
  </widget>
  <customwidgets>
   <customwidget>
@@ -2457,13 +2469,13 @@ font-size: 8pt;</string>
   <customwidget>
    <class>Animation</class>
    <extends>QLabel</extends>
-   <header>pysca.animation</header>
+   <header>pygui.animation</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>RuntimeTrend</class>
    <extends>QwtPlot</extends>
-   <header>pysca.runtimetrend</header>
+   <header>pygui.runtimetrend</header>
   </customwidget>
   <customwidget>
    <class>QwtPlot</class>
@@ -2472,7 +2484,8 @@ font-size: 8pt;</string>
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../concretetheme.git/concrete.qrc"/>
+  <include location="../../../concretetheme.git/concrete.qrc"/>
+  <include location="../concrete.qrc"/>
  </resources>
  <connections/>
 </ui>

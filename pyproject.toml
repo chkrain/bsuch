@@ -14,7 +14,7 @@ readme = "README.md"
 requires-python = ">=3.6"
 license = {text = "MIT License"}
 authors = [
-    {name = "Vasiliy Linnik", email = "ainurcerepanov@mail.ru"}
+    {name = "k", email = "ainurcerepanov@mail.ru"}
 ]
 urls = { "Homepage" = "https://github.com/chkrain/" }
 classifiers = [
@@ -30,13 +30,20 @@ dev = []
 [project.gui-scripts]
 pysca-hmi = "gui.__main__:main"
 
+[tool.setuptools.package-data]
+gui = ["data/**/*"]
+
 [tool.setuptools.packages.find]
 where = ["."]
 exclude = ["src"]
 include = ["gui"]
 
+[tool.setuptools]
+include-package-data = true 
+#packages = ["gui"]
+
 [tool.setuptools.data-files]
 "share/applications" = ["pysca-hmi.desktop"]
-"share/pysca-hmi" = [ "default.scada", "*.rcc","*.dat"]
-"share/pysca-hmi/ui" = ["ui/*.ui"]
+#"share/pysca-hmi" = [ "default.scada", "*.rcc","*.dat"]
+#"share/pysca-hmi/ui" = ["ui/*.ui"]
 #"lib/SCADA/modules" = ["/usr/lib/x86_64-linux-gnu/qt5/plugins/SCADA/modules/libconcrete6.so"]

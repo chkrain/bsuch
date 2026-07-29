@@ -1,8 +1,8 @@
 [Desktop Entry]
-Exec=pysca-hmi
+Exec=pysca -w /usr/lib/python3/dist-packages/gui/data/ project run 
 Name=PYSCA-HMI 
 Type=Application
-Icon=pysca-hmi
+Icon=/home/ainur/icon.png
 Version=1.0
 Terminal=false
 Comment=АСУ PYSCA-HMI

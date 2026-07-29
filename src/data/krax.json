@@ -1,0 +1,41 @@
+{
+  "slots": [
+    8,
+    8,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "devs": [
+    "AI-455",
+    "AI-455",
+    "DI-430",
+    "DI-430",
+    "DI-430",
+    "DI-430",
+    "DO-530",
+    "DO-530",
+    "DO-530",
+    "DO-530"
+  ],
+  "init": {
+    "iface": 0
+  },
+  "devices": [
+    {
+      "driver": "krax",
+      "name": "hw"
+    },
+    {
+      "driver": "posto",
+      "name": "posto"
+    }
+  ],
+  "node_id": 1,
+  "scanTime": 100
+}

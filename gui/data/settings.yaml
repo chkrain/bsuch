@@ -3,7 +3,7 @@ main:
   stderr: "WARNING:"
 
 paths:                      # настройка путей проекта
-  workspace: ../../..       # рабочее пространство проекта (относительно workdir)
+  workspace: ../..       # рабочее пространство проекта (относительно workdir)
   modules:
   - ..
   - ../..
@@ -37,11 +37,11 @@ devices:
 - name: PLC
   type: PYPLC
   args:
-    device: 192.168.1.10
+    device: 127.0.0.1
 
 simulator:
 - task: master
-  exec: src/plc/krax.py
+  exec: src/krax.py
   args:
   - --conf
-  - src/plc/data
+  - ./src
