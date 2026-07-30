@@ -17,8 +17,8 @@ if platform == 'vscode':
 factory_1 = Factory()
 
 cement_m_1 = Weight(raw=io.CEMENT_M_1, mmax=1500)
-auger_1 = Container(m = cement_m_1.get_m, out = io.AUGER_ON_1, lock=Lock(key=~io.DCEMENT_CLOSED_1),closed=~io.AUGER_ON_1,max_sp=1000)
-auger_2 = Container(m = cement_m_1.get_m, out = io.AUGER_ON_2, lock=Lock(key=~io.DCEMENT_CLOSED_1),closed=~io.AUGER_ON_2,max_sp=1000)
+auger_1 = Container(m = cement_m_1.get_m, out = io.AUGER_ON_1, lock=Lock(key=~io.DCEMENT_CLOSED_1),closed=~io.AUGER_ISON_1,max_sp=1000)
+auger_2 = Container(m = cement_m_1.get_m, out = io.AUGER_ON_2, lock=Lock(key=~io.DCEMENT_CLOSED_1),closed=~io.AUGER_ISON_2,max_sp=1000)
 dcement_1 = Dosator(m = cement_m_1.get_m, closed = io.DCEMENT_CLOSED_1, out = io.DCEMENT_OPEN_1, lock=Lock(key=lambda: io.AUGER_ON_1 or io.AUGER_ON_2), containers=(auger_1, auger_2, ))
 aerator_1 = BLINK(enable=io.AUGER_ON_1,q=io.AERATOR_ON_1)
 aerator_2 = BLINK(enable=io.AUGER_ON_2,q=io.AERATOR_ON_2)    

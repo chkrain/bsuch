@@ -443,6 +443,9 @@ QLabel[style='accid']
      <string>qrc:/concrete/conveyor.mng</string>
     </url>
    </property>
+   <property name="playbackHints">
+    <set>Animation::Ceaseless</set>
+   </property>
    <widget class="QPushButton" name="dopen_4">
     <property name="geometry">
      <rect>
@@ -951,6 +954,9 @@ QLabel[style='accid']
      <string>qrc:/concrete/tconveyor.mng</string>
     </url>
    </property>
+   <property name="playbackHints">
+    <set>Animation::Ceaseless</set>
+   </property>
    <widget class="QLabel" name="label_22">
     <property name="geometry">
      <rect>
@@ -971,9 +977,9 @@ QLabel[style='accid']
   <widget class="RuntimeTrend" name="runtimetrend">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>22</x>
      <y>10</y>
-     <width>651</width>
+     <width>673</width>
      <height>371</height>
     </rect>
    </property>
@@ -981,8 +987,17 @@ QLabel[style='accid']
     <string notr="true">color: lightGray;
 font-size: 8pt;</string>
    </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
    <property name="depth">
-    <number>1200</number>
+    <number>600</number>
+   </property>
+   <property name="pen_0">
+    <double>-1.000000000000000</double>
+   </property>
+   <property name="pen_1">
+    <double>-1.000000000000000</double>
    </property>
    <property name="canvasBackground">
     <brush brushstyle="SolidPattern">
@@ -1010,6 +1025,9 @@ font-size: 8pt;</string>
     <url>
      <string>qrc:/concrete/lauger.mng</string>
     </url>
+   </property>
+   <property name="playbackHints">
+    <set>Animation::Ceaseless</set>
    </property>
    <widget class="QPushButton" name="open_1">
     <property name="geometry">
@@ -1057,6 +1075,9 @@ font-size: 8pt;</string>
      <string>qrc:/concrete/pump.mng</string>
     </url>
    </property>
+   <property name="playbackHints">
+    <set>Animation::Ceaseless</set>
+   </property>
    <widget class="QPushButton" name="open_2">
     <property name="geometry">
      <rect>
@@ -1102,6 +1123,9 @@ font-size: 8pt;</string>
     <url>
      <string>qrc:/concrete/pump.mng</string>
     </url>
+   </property>
+   <property name="playbackHints">
+    <set>Animation::Ceaseless</set>
    </property>
    <widget class="QPushButton" name="open_3">
     <property name="geometry">
@@ -1149,6 +1173,9 @@ font-size: 8pt;</string>
      <string>qrc:/concrete/pump.mng</string>
     </url>
    </property>
+   <property name="playbackHints">
+    <set>Animation::Ceaseless</set>
+   </property>
    <widget class="QPushButton" name="open_4">
     <property name="geometry">
      <rect>
@@ -1181,7 +1208,7 @@ font-size: 8pt;</string>
   <widget class="QLabel" name="mixer_i">
    <property name="geometry">
     <rect>
-     <x>113</x>
+     <x>70</x>
      <y>20</y>
      <width>67</width>
      <height>34</height>
@@ -1768,6 +1795,9 @@ font-size: 8pt;</string>
     <url>
      <string>qrc:/concrete/lauger.mng</string>
     </url>
+   </property>
+   <property name="playbackHints">
+    <set>Animation::Ceaseless</set>
    </property>
    <widget class="QPushButton" name="open_7">
     <property name="geometry">
@@ -2447,6 +2477,17 @@ font-size: 8pt;</string>
  </widget>
  <customwidgets>
   <customwidget>
+   <class>Animation</class>
+   <extends>QLabel</extends>
+   <header>pygui.animation</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RuntimeTrend</class>
+   <extends>QwtPlot</extends>
+   <header>pygui.runtimetrend</header>
+  </customwidget>
+  <customwidget>
    <class>TConveyorPanel</class>
    <extends>QGroupBox</extends>
    <header>concreteui.tconveyorpanel</header>
@@ -2465,17 +2506,6 @@ font-size: 8pt;</string>
    <class>MixerPanel</class>
    <extends>QGroupBox</extends>
    <header>concreteui.mixerpanel</header>
-  </customwidget>
-  <customwidget>
-   <class>Animation</class>
-   <extends>QLabel</extends>
-   <header>pygui.animation</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>RuntimeTrend</class>
-   <extends>QwtPlot</extends>
-   <header>pygui.runtimetrend</header>
   </customwidget>
   <customwidget>
    <class>QwtPlot</class>
