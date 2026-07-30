@@ -57,7 +57,7 @@ dfillers_1 = Dosator(m = fillers_m_1.get_m, closed = ~io.CONVEYOR_ON_1, out = io
 vibrator_1 = Vibrator(q=io.FVIBRATOR_ON_1,containers=(io.FEEDER_OPEN_1,io.FEEDER_OPEN_2),weight=fillers_m_1)
 vibrator_2 = Vibrator(q=io.FVIBRATOR_ON_2,containers=(io.FEEDER_OPEN_2,io.FEEDER_OPEN_1),weight=fillers_m_1)
 
-motor_1 = Motor(ison=io.MIXER_ISON_1,powered = io.MIXER_ON_1, bell=io.CALL_ON_1)
+motor_1 = Motor(ison=io.MIXER_ISON_1, bell=io.CALL_ON_1,on=io.MIXER_ON_1, off=io.MIXER_OFF_1)
 tconveyor_1 = Transport(ison=io.TCONVEYOR_ISON_1,power=io.TCONVEYOR_ON_1,out=None)
 gate_1 = Gate(closed = io.MIXER_CLOSED_1,opened=io.MIXER_OPENED_1, open=io.MIXER_OPEN_1)
 mixer_1 = Mixer(gate=gate_1,motor=motor_1,flows=[ x.q for x in [auger_1,auger_2,water_1,addition_1,addition_2]] + [x.q for x in [filler_1, filler_2]])
@@ -91,7 +91,7 @@ instances = (factory_1, motor_1,gate_1,tconveyor_1,
             )
 
 if platform=='linux':
-  imotor_1 = iMOTOR(simple=True,on = io.MIXER_ON_1,ison=io.MIXER_ISON_1)
+  imotor_1 = iMOTOR(simple=False,on = io.MIXER_ON_1,ison=io.MIXER_ISON_1, off=io.MIXER_OFF_1)
   igate_1 = iGATE(open=io.MIXER_OPEN_1,closed=io.MIXER_CLOSED_1,opened=io.MIXER_OPENED_1,simple=True, close=~io.MIXER_OPEN_1)
   iauger_1 = iMOTOR(simple=True,on = io.AUGER_ON_1,ison=io.AUGER_ISON_1)
   iauger_2 = iMOTOR(simple=True,on = io.AUGER_ON_2,ison=io.AUGER_ISON_2)
@@ -119,4 +119,9 @@ if platform=='linux':
   instances += (imotor_1,igate_1,iauger_1,iauger_2,iwpump_1,iapump_1,iapump_2,iconveyor_1,itconveyor_1,idcement_1,igwater_1,idwater_1,igadditions_1,igadditions_2,idadditions_1,ifeeder_1,ifeeder_2,
                 icement_m_1,iwater_m_1,iadditions_m_1,ifillers_m_1, ibelt_1, ibelt_2)
 
+if platform=='esp32':
+    from board import tick
+    instances+=(tick,)
+
+# io.name = 'plc'
 plc.run( instances=instances, ctx=globals() )

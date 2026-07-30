@@ -6,8 +6,6 @@ devices:
 devs:
 - AI-455
 - AI-455
-- AI-455
-- AI-455
 - DI-430
 - DI-430
 - DI-430
@@ -21,8 +19,6 @@ init:
 node_id: 1
 scanTime: 100
 slots:
-- 8
-- 8
 - 8
 - 8
 - 1
